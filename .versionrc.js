@@ -1,12 +1,14 @@
 const tracker = {
   readVersion: function(contents) {
-    // Regex to find the version string inside quotes
-    const match = contents.match(/(?:version|__version__) = "(.*)"/);
-    return match ? match[1] : null;
+    const match = contents.match(/(?:version|__version__) = "([^"]+)"/);
+    if (!match) return null;
+    // Convert Python 5.0.0b3 to SemVer 5.0.0-b3 so the tool can "see" it
+    return match[1].replace(/(\d+)([ab]|rc)(\d+)/, '$1-$2$3');
   },
   writeVersion: function(contents, version) {
-    // Replace the version string while preserving the surrounding key
-    return contents.replace(/(version|__version__) = ".*"/, `$1 = "${version}"`);
+    // Strip the hyphen for Python: 5.0.0-b3 -> 5.0.0b3
+    const pythonVersion = version.replace(/-([ab]|rc)/, '$1');
+    return contents.replace(/(version|__version__) = "[^"]+"/, (m, p1) => `${p1} = "${pythonVersion}"`);
   }
 };
 
