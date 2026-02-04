@@ -1,6 +1,6 @@
 [project]
 name = "pyquery-core"
-version = "5.0.0b3"
+version = "5.0.0b4"
 description = "Enterprise-grade Headless ETL Engine with Interactive UI"
 authors = [
   { name="Shan", email="tksudharshan@gmail.com" },

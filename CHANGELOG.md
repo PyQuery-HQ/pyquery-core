@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0-b4](https://github.com/tks18/pyquery/compare/5.0.0-b3...5.0.0-b4) (2026-02-04)
+
+
+### Build System 🏗
+
+* **pyproject:** include readme and other files in the source distribution ([ab8cb4c](https://github.com/tks18/pyquery/commit/ab8cb4ca6802ad6194e3ebfd2527e7da7dc8dad4))
+
 ## [5.0.0-b3](https://github.com/tks18/pyquery/compare/5.0.0-0b2...5.0.0-b3) (2026-02-04)
 
 
