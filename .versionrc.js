@@ -18,7 +18,7 @@ const tracker = {
 module.exports = {
   'tag-prefix': '',
   scripts: {
-    postbump: 'uv sync && git add uv.lock',
+    precommit: 'uv sync && git add uv.lock',
   },
   types: [
     {
