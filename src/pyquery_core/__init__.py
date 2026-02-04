@@ -5,4 +5,4 @@ __all__ = [
     "PyQueryEngine"
 ]
 
-__version__ = "5.0.0b4"
+__version__ = "5.0.0b5"

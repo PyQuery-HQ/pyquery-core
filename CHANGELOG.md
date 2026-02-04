@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0-b5](https://github.com/tks18/pyquery/compare/5.0.0-b4...5.0.0-b5) (2026-02-04)
+
+
+### Bug Fixes 🛠
+
+* **.versionrc:** do a postbump script to sync the uv backend and then commit ([8bac48a](https://github.com/tks18/pyquery/commit/8bac48a57a5396f1b3f06ebee45377eb0ca4dcd4))
+
 ## [5.0.0-b4](https://github.com/tks18/pyquery/compare/5.0.0-b3...5.0.0-b4) (2026-02-04)
 
 
