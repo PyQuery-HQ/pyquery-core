@@ -1,4 +1,16 @@
-{
+const tracker = {
+  readVersion: function(contents) {
+    // Regex to find the version string inside quotes
+    const match = contents.match(/(?:version|__version__) = "(.*)"/);
+    return match ? match[1] : null;
+  },
+  writeVersion: function(contents, version) {
+    // Replace the version string while preserving the surrounding key
+    return contents.replace(/(version|__version__) = ".*"/, `$1 = "${version}"`);
+  }
+};
+
+module.exports = {
   "tag-prefix": "",
   "types": [
     {
@@ -62,20 +74,18 @@
       "hidden": false
     }
   ],
-  "bumpFiles": [
+   bumpFiles: [
     {
-      "filename": "pyproject.toml",
-      "updater": {
-        "readVersion": "function(contents) { return contents.match(/version = \"(.*)\"/)[1]; }",
-        "writeVersion": "function(contents, version) { return contents.replace(/version = \".*\"/, 'version = \"' + version + '\"'); }"
-      }
+      filename: "package.json",
+      type: "json"
     },
     {
-      "filename": "src/pyquery_core/__init__.py",
-      "updater": {
-        "readVersion": "function(contents) { return contents.match(/__version__ = \"(.*)\"/)[1]; }",
-        "writeVersion": "function(contents, version) { return contents.replace(/__version__ = \".*\"/, '__version__ = \"' + version + '\"'); }"
-      }
+      filename: "pyproject.toml",
+      updater: tracker
+    },
+    {
+      filename: "src/pyquery_core/__init__.py",
+      updater: tracker
     }
   ]
 }
