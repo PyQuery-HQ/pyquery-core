@@ -1,4 +1,5 @@
 {
+  "tag-prefix": "",
   "types": [
     {
       "type": "chore",
@@ -59,6 +60,22 @@
       "type": "ci",
       "section": "CI 🛠",
       "hidden": false
+    }
+  ],
+  "bumpFiles": [
+    {
+      "filename": "pyproject.toml",
+      "updater": {
+        "readVersion": "function(contents) { return contents.match(/version = \"(.*)\"/)[1]; }",
+        "writeVersion": "function(contents, version) { return contents.replace(/version = \".*\"/, 'version = \"' + version + '\"'); }"
+      }
+    },
+    {
+      "filename": "src/pyquery_core/__init__.py",
+      "updater": {
+        "readVersion": "function(contents) { return contents.match(/__version__ = \"(.*)\"/)[1]; }",
+        "writeVersion": "function(contents, version) { return contents.replace(/__version__ = \".*\"/, '__version__ = \"' + version + '\"'); }"
+      }
     }
   ]
 }

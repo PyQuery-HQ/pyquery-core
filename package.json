@@ -29,7 +29,8 @@
     "release:pre": "standard-version --prerelease",
     "release:patch": "standard-version --release-as patch",
     "release:minor": "standard-version --release-as minor",
-    "release:major": "standard-version --release-as major"
+    "release:major": "standard-version --release-as major",
+    "release:as": "standard-version --release-as"
   },
   "packageManager": "yarn@4.12.0"
 }
