@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0-b7](https://github.com/tks18/pyquery/compare/5.0.0-b6...5.0.0-b7) (2026-02-04)
+
+
+### Bug Fixes 🛠
+
+* **.versionrc:** still figuring out the auto-bumper with custom script ([7ab4ff1](https://github.com/tks18/pyquery/commit/7ab4ff1fa1fd6e8b02d28bd2f1cc12ebcbc0b9cc))
+
+## [5.0.0-b6](https://github.com/tks18/pyquery/compare/5.0.0-b5...5.0.0-b6) (2026-02-04)
+
+
+### Bug Fixes 🛠
+
+* **.versionrc:** fix the precommit script ([7b79fe9](https://github.com/tks18/pyquery/commit/7b79fe99951f154e73cbf2954aa230d9d99a6957))
+
+## [5.0.0-b5](https://github.com/tks18/pyquery/compare/5.0.0-b4...5.0.0-b5) (2026-02-04)
+
+
+### Bug Fixes 🛠
+
+* **.versionrc:** do a postbump script to sync the uv backend and then commit ([8bac48a](https://github.com/tks18/pyquery/commit/8bac48a57a5396f1b3f06ebee45377eb0ca4dcd4))
+
+## [5.0.0-b4](https://github.com/tks18/pyquery/compare/5.0.0-b3...5.0.0-b4) (2026-02-04)
+
+
+### Build System 🏗
+
+* **pyproject:** include readme and other files in the source distribution ([ab8cb4c](https://github.com/tks18/pyquery/commit/ab8cb4ca6802ad6194e3ebfd2527e7da7dc8dad4))
+
 ## [5.0.0-b3](https://github.com/tks18/pyquery/compare/5.0.0-0b2...5.0.0-b3) (2026-02-04)
 
 

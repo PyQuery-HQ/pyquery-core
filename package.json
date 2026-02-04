@@ -1,7 +1,7 @@
 {
   "name": "pyquery-core",
   "description": "PyQuery is a low-code ETL app that actually slaps",
-  "version": "5.0.0-b3",
+  "version": "5.0.0-b7",
   "repository": "https://github.com/tks18/pyquery",
   "author": "tks18 <tksudharshan@gmail.com>",
   "license": "GPL-3.0-only",
@@ -26,11 +26,11 @@
     "git:stage": "git add",
     "git:commit": "cz",
     "git:push": "git push --follow-tags origin dev",
-    "release:pre": "standard-version --prerelease",
-    "release:patch": "standard-version --release-as patch",
-    "release:minor": "standard-version --release-as minor",
-    "release:major": "standard-version --release-as major",
-    "release:as": "standard-version --release-as"
+    "release:pre": "standard-version --commit-all --prerelease",
+    "release:patch": "standard-version --commit-all --release-as patch",
+    "release:minor": "standard-version --commit-all --release-as minor",
+    "release:major": "standard-version --commit-all --release-as major",
+    "release:as": "standard-version --commit-all --release-as"
   },
   "packageManager": "yarn@4.12.0"
 }
