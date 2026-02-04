@@ -1,5 +1,5 @@
 [project]
-name = "pyquery-polars"
+name = "pyquery-core"
 version = "4.1.2"
 description = "Enterprise-grade Headless ETL Engine with Interactive UI"
 authors = [
@@ -28,21 +28,12 @@ classifiers = [
 
 dependencies = [
     "polars>=1.0.0",
-    "streamlit>=1.30.0",
-    "fastapi>=0.109.0",
-    "uvicorn>=0.25.0",
     "pydantic>=2.5.0",
-    "rich>=13.7.0",
-    "questionary>=2.0.0",
     "xlsxwriter>=3.1.0",
     "openpyxl>=3.1.0",
     "pyarrow>=14.0.0",
     "connectorx>=0.3.3",
     "fastexcel>=0.16.0",
-    "python-multipart>=0.0.20",
-    "matplotlib>=3.9.4",
-    "seaborn>=0.13.2",
-    "plotly>=6.5.0",
     "statsmodels>=0.14.6",
     "scikit-learn>=1.6.1",
     "scipy>=1.13.1",
@@ -54,12 +45,9 @@ dependencies = [
 requires = ["uv_build>=0.8.15,<0.9.0"]
 build-backend = "uv_build"
 
-[project.scripts]
-pyquery = "pyquery_polars.main:main"
-
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["src*"]
+include = ["src*", "README.md", "LICENSE", "MANIFEST.in", "pyproject.toml", "CHANGELOG.md"]
 
 [project.urls]
 Homepage = "https://github.com/tks18/pyquery"
