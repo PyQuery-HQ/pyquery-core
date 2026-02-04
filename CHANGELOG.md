@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/tks18/pyquery/compare/v4.1.2...v5.0.0) (2026-02-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* Now this Holds only the backend logic and all the frontend and other parts are
+deleted, use the pyquery-legacy repo for all the modules
+
+### Styling 🎨
+
+* linter fixes ([7fedfdc](https://github.com/tks18/pyquery/commit/7fedfdc3b3e73fb613e5fc65b83cc135227eae0d))
+
+
+### Code Refactoring 🖌
+
+* **backend/frontend:** refactor the backend and frontend to update to new loader structure ([97c24e5](https://github.com/tks18/pyquery/commit/97c24e524c26f88e101a9a530cbc72f930fce6dc))
+* **backend/io:** loaders: refactor loaders to dynamically valiadate the input and output params ([5382570](https://github.com/tks18/pyquery/commit/5382570d628056914966080abeac6e0f08f2182b))
+
+
+### Bug Fixes 🛠
+
+* **backend/io:** loaders: validate the entire output model instead of meta only ([575a65e](https://github.com/tks18/pyquery/commit/575a65ea5514be4fe87fc27ff689082ccbe54931))
+
+
+### Features 🔥
+
+* **backend/io:** create file, sql, api loader from the base loader ([5bd0783](https://github.com/tks18/pyquery/commit/5bd078347749a375cb87913564e985879aac927f))
+* **backend/io:** encoding: create a encoding class for all encoding ops ([378b3f7](https://github.com/tks18/pyquery/commit/378b3f790e08aed5ec618b79c75dc19dd2af8a5a))
+* **backend/io:** excel: create a excel engine class for excel related ops ([8a2dcbd](https://github.com/tks18/pyquery/commit/8a2dcbdf2631001e96071987b2729df1dbb6ab18))
+* **backend/io:** exporter: create proper base exporter ([2c7f1e3](https://github.com/tks18/pyquery/commit/2c7f1e3a896b1a27b42b185b29e45b52a74651a0))
+* **backend/io:** filters: create a filter engine for all path resolving & filtering ops ([1a8a9dd](https://github.com/tks18/pyquery/commit/1a8a9ddb5ea17974fcdabe311eea199a73fd1ea0))
+* **backend/io:** staging: introduce a staging manager ([54a92b6](https://github.com/tks18/pyquery/commit/54a92b663809c595af8cfca3f8db7845271d2663))
+
+
+### Build System 🏗
+
+* refactored the entire app to maintain the core backend logic ([ac7d5cd](https://github.com/tks18/pyquery/commit/ac7d5cd01111bf1371d771079243ac7cdba34145))
+
 ### [4.1.2](https://github.com/tks18/pyquery/compare/v4.1.1...v4.1.2) (2026-01-27)
 
 ### [4.1.1](https://github.com/tks18/pyquery/compare/v4.1.0...v4.1.1) (2026-01-27)
