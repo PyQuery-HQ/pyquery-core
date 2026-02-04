@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0-0b1](https://github.com/tks18/pyquery/compare/v5.0.0...v5.0.0-0b1) (2026-02-04)
+
+
+### Others 🔧
+
+* **package:** prepare for b1 release ([789ec65](https://github.com/tks18/pyquery/commit/789ec65b84560e60ec3448cc1174392d561f3143))
+* update app to v5.0.0 for starting with new changes ([c7e44eb](https://github.com/tks18/pyquery/commit/c7e44ebd32a1e79e1839281d3ecb974766058519))
+
 ## [5.0.0](https://github.com/tks18/pyquery/compare/v4.1.2...v5.0.0) (2026-02-04)
 
 
