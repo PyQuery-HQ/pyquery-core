@@ -2858,9 +2858,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pyquery@workspace:.":
+"pyquery-core@workspace:.":
   version: 0.0.0-use.local
-  resolution: "pyquery@workspace:."
+  resolution: "pyquery-core@workspace:."
   dependencies:
     "@commitlint/cli": "npm:^20.1.0"
     "@commitlint/config-conventional": "npm:^20.0.0"
