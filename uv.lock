@@ -879,7 +879,7 @@ wheels = [
 
 [[package]]
 name = "pyquery-core"
-version = "5.0.0b6"
+version = "5.0.0b7"
 source = { editable = "." }
 dependencies = [
     { name = "chardet" },

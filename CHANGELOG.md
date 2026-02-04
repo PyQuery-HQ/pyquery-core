@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0-b7](https://github.com/tks18/pyquery/compare/5.0.0-b6...5.0.0-b7) (2026-02-04)
+
+
+### Bug Fixes 🛠
+
+* **.versionrc:** still figuring out the auto-bumper with custom script ([7ab4ff1](https://github.com/tks18/pyquery/commit/7ab4ff1fa1fd6e8b02d28bd2f1cc12ebcbc0b9cc))
+
 ## [5.0.0-b6](https://github.com/tks18/pyquery/compare/5.0.0-b5...5.0.0-b6) (2026-02-04)
 
 
