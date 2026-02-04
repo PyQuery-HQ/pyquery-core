@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0-b3](https://github.com/tks18/pyquery/compare/5.0.0-0b2...5.0.0-b3) (2026-02-04)
+
+
+### Bug Fixes 🛠
+
+* **.versionrc:** fix the script for bumping semver versions ([e83ede1](https://github.com/tks18/pyquery/commit/e83ede14fde6b67293fe6ec76ac033f571368e52))
+
+## [5.0.0-0b2](https://github.com/tks18/pyquery/compare/5.0.0-0b1...5.0.0-0b2) (2026-02-04)
+
+
+### Others 🔧
+
+* **release:** 5.0.0-0b1 ([c5e11dc](https://github.com/tks18/pyquery/commit/c5e11dcbe7daec4d1a4a7763b0e382d6a60166d1))
+
+
+### Bug Fixes 🛠
+
+* **.versionrc:** move to js for custom version bumper ([df6aba5](https://github.com/tks18/pyquery/commit/df6aba57c0d37571a4d9bd3143ac81a2ddbf0ff3))
+
+## [5.0.0-0b1](https://github.com/tks18/pyquery/compare/v5.0.0...v5.0.0-0b1) (2026-02-04)
+
+
+### Others 🔧
+
+* **package:** prepare for b1 release ([789ec65](https://github.com/tks18/pyquery/commit/789ec65b84560e60ec3448cc1174392d561f3143))
+* update app to v5.0.0 for starting with new changes ([c7e44eb](https://github.com/tks18/pyquery/commit/c7e44ebd32a1e79e1839281d3ecb974766058519))
+
 ## [5.0.0](https://github.com/tks18/pyquery/compare/v4.1.2...v5.0.0) (2026-02-04)
 
 
