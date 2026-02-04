@@ -47,7 +47,10 @@ build-backend = "uv_build"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["src*", "README.md", "LICENSE", "MANIFEST.in", "pyproject.toml", "CHANGELOG.md"]
+include = ["src*", "README.md", "LICENSE", "pyproject.toml", "CHANGELOG.md"]
+
+[tool.uv.build-backend]
+source-include = ["README.md", "LICENSE", "pyproject.toml", "CHANGELOG.md"]
 
 [project.urls]
 Homepage = "https://github.com/tks18/pyquery"
